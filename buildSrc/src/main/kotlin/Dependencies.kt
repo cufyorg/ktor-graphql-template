@@ -26,13 +26,13 @@ object Dependencies {
 
     object GraphQL {
         val graphql = "com.graphql-java:graphql-java:18.1"
-        val kaguya = "org.cufy:kaguya:1.0.0-beta.2"
+        val kaguya = "org.cufy:kaguya:1.0.0"
     }
 
     object MongoDB {
         val kmongo = "org.litote.kmongo:kmongo:4.6.0"
         val kmongo_coroutine = "org.litote.kmongo:kmongo-coroutine:4.6.0"
-        val mangaka = "org.cufy:mangaka:1.0.0-beta.2"
+        val mangaka = "org.cufy:mangaka:1.0.0"
     }
 
     object Crypto {
@@ -42,7 +42,8 @@ object Dependencies {
     }
 
     val dotenv = "io.github.cdimascio:dotenv-kotlin:6.3.1"
-    val openperm = "org.cufy:openperm-kt:1.0.0-beta.0"
-    val cufy_ktor_commons = "org.cufy:ktor-commons:c7dee8a05f"
+    val weakness = "org.cufy:weakness:1.0.0"
+    val openperm = "org.cufy:openperm-kt:1.0.0"
+    val cufy_ktor_commons = "org.cufy:ktor-commons:1.0.0"
     val logback_classic = "ch.qos.logback:logback-classic:1.2.11"
 }

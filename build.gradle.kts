@@ -49,6 +49,7 @@ dependencies {
     implementation(Dependencies.Crypto.tink)
 
     implementation(Dependencies.dotenv)
+    implementation(Dependencies.weakness)
     implementation(Dependencies.openperm)
     implementation(Dependencies.cufy_ktor_commons)
     implementation(Dependencies.logback_classic)
